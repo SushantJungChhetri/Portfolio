@@ -1,0 +1,117 @@
+/* Hero Section Css */
+@media only screen and (max-width: 991px) {
+  .mh-home .mh-header-info h2 {
+      font-size: 42px;
+      font-weight: 600;
+      line-height: 54px;
+      scroll-behavior: smooth;
+  }
+}
+.myname{
+    font-weight: bolder;
+    font-size: 40px;
+    margin-top: 20px;
+    width: fit-content;
+    color: #04413D;
+    margin-left: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Hello{
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 120px;
+    margin-left: 250px;
+    padding: 10px 30px;
+    opacity: 0.9;
+    background-color: #0985e3c2;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: fit-content;
+}
+
+.detail{
+  animation-delay: 0.4s;
+  animation-duration: 4s;
+  animation-name:fade;
+  visibility: visible;
+}
+
+.skill{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #04413D;
+  opacity: 1;
+  font-weight: bold;
+  margin-left: 250px;
+  font-size: 25px;
+  width: fit-content;
+  }
+  
+ .image{
+    width: 30%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    margin-bottom: 20px;        
+}
+.shape{
+    height: 10rem;
+    margin-top: 300px;
+  
+}
+.image img{
+    height: 60%;
+    position: absolute;
+    left: 10%;
+    bottom: 18%;
+   
+    
+}
+
+
+
+
+
+.social{
+    display: flex;
+    justify-content: left;
+    gap: 40px;
+    margin-left: 250px;
+  }
+
+  .icon {
+    cursor: pointer;
+    height: 1.5rem;
+    margin-bottom: 50px;
+    
+  }
+
+  .info-icon{
+    cursor: pointer;
+    height: 1rem;
+    opacity: 0.8;
+    
+  }
+
+  .info{
+    margin-top: 10px;
+    margin-left: 190px;
+  }
+
+ 
+
+  .info-list{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+    
+  }
+
+ /* .info .info-lsit a{
+    font-family: Arial, Helvetica, sans-serif;
+  } */
